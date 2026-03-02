@@ -110,22 +110,22 @@ st.markdown("""
         opacity: 1;
     }
 
-    /* Chat Input Styling - More Robust Selectors */
+    /* Chat Input Styling - Light background with Black Text */
     [data-testid="stChatInput"] {
-        background-color: rgba(15, 23, 42, 0.9) !important;
-        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        background-color: #f1f5f9 !important; /* Light background */
+        border: 1px solid #cbd5e1 !important;
         border-radius: 16px !important;
-        color: #ffffff !important;
+        color: #1e293b !important; /* Black/Dark text */
     }
 
     [data-testid="stChatInput"] textarea {
-        color: #ffffff !important;
+        color: #1e293b !important; /* Black/Dark text */
         background-color: transparent !important;
     }
 
     [data-testid="stChatInput"] button {
-        background-color: rgba(56, 189, 248, 0.2) !important;
-        color: #38bdf8 !important;
+        background-color: #38bdf8 !important;
+        color: white !important;
         border-radius: 50% !important;
     }
 
