@@ -1,1 +1,14 @@
 .env
+__pycache__/
+*.py[cod]
+*$py.class
+.streamlit/
+venv/
+env/
+detailed_models.txt
+models_list.txt
+out.log
+verify_key.py
+check_m.py
+check_models_detailed.py
+list_models.py
